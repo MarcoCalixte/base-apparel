@@ -163,9 +163,6 @@
 
                     .sub-btn {
                         border: none;
-                        background-image: url('/images/icon-arrow.svg'), linear-gradient(to right,hsl(0, 80%, 86%), hsl(0, 74%, 74%));
-                        background-repeat: no-repeat;
-                        background-position: center;
                         box-shadow: 5px 10px 18px $De-saturated-Red;
                         border-radius: 1.5em;
                         cursor: pointer;
@@ -175,7 +172,7 @@
                         font-size: 1.8rem;
                         font-weight: lighter;
 
-                        &:active{
+                        &:active {
                             background-image: url('/images/icon-arrow.svg'), linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 80%, 86%));
                         }
                     }
@@ -337,9 +334,6 @@
 
                 .sub-btn {
                     border: 0px solid red;
-                    background-image: url('/images/icon-arrow.svg'), linear-gradient(to right,hsl(0, 80%, 86%), hsl(0, 74%, 74%));
-                    background-repeat: no-repeat;
-                    background-position: center;
                     box-shadow: 5px 10px 18px $De-saturated-Red;
                     border-radius: 1.5em;
                     cursor: pointer;
