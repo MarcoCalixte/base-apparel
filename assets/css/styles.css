@@ -67,7 +67,7 @@ select {
   align-items: center;
   gap: 2rem;
 }
-@media (min-width: 852px) and (max-width: 1920px) {
+@media (min-width: 852px) and (max-width: 61920px) {
   .apparel-wrapper {
     background-image: url("/images/bg-pattern-desktop.svg"), linear-gradient(135deg, hsl(0deg, 33%, 98%), hsl(0deg, 100%, 98%));
     background-repeat: no-repeat;
@@ -90,13 +90,10 @@ select {
     width: 100%;
     height: 100%;
   }
-  .apparel-wrapper .apparel-container .apparel-mobile-container img {
-    background-image: url(/images/hero-desktop.jpg);
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
+  .apparel-wrapper .apparel-container .apparel-mobile-container img::before {
+    content: url(/images/hero-desktop.jpg);
     width: 100%;
-    height: 100vh;
+    height: 100%;
   }
   .apparel-wrapper .apparel-container .logo {
     width: 100%;
