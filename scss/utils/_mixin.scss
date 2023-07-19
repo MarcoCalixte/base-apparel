@@ -3,7 +3,7 @@ $md-mobile-width: 417px;
 $lg-mobile-width: 512px;
 $tablet-width: 852px;
 $desktop-width: 1024px !default;
-$lg-desktop-width: 61920px;
+$lg-desktop-width: 41920px;
 
 @mixin small-screen-mobile {
   @media (min-width: #{$sm-mobile-width}) and (max-width:#{$tablet-width - 1px} ) {
